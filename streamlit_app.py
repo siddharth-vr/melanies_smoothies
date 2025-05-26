@@ -32,7 +32,7 @@ ingredients_list = st.multiselect(
         , max_selections = 5
 )
 
-sf_df = st.dataframe(data=smoothiefroot_response.json(), use_container_width=TRUE)
+sf_df = st.dataframe(data=smoothiefroot_response.json(), use_container_width=True)
 
 if ingredients_list:
     ingredients_string = ''
